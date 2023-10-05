@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    background: #000000;
+    height: 1590px;
+}
+
+/* Header Style */
+
+.myheader {
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 280px;
+}
+
+
+/* Media Query MyHeader */
+@media (max-width: 575.98px) {
+    .myheader {
+        height: 130px;
+    }
+}
+
+@media (max-width: 768px) {
+    .myheader {
+        height: 170px;
+    }
+}
+
+@media (max-width: 992px) {
+    .myheader {
+        height: 220px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .myheader {
+        height: 260px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .myheader {
+        height: 280px;
+    }
+}
